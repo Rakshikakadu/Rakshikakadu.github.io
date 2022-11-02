@@ -107,9 +107,6 @@ section .title::after {
   align-items: center;
   justify-content: space-between;
 }
-
-
-
 .navbar .logo a {
   color: #fff;
   font-size: 35px;
@@ -138,9 +135,6 @@ section .title::after {
 .navbar .menu li a:hover {
   color: crimson;
 }
-
-
-
 
 .navbar.sticky .menu li a:hover {
   color: rgb(168, 159, 159);
@@ -184,15 +178,9 @@ section .title::after {
 }
 
 
-
-
-
-
-
-
 /* home section styling */
 /* bgc considered */
-/* https://images.pexels.com/photos/168766/pexels-photo-168766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
+
 .home {
   display: flex;
   background: url("https://wallpaperaccess.com/full/383133.jpg") no-repeat center;
@@ -247,39 +235,11 @@ section .title::after {
   background: none;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* about section styling */
 .about{
 
-/*  
- background-image: url("");
- background-size: cover;
-  background-attachment: fixed;
-
-  background-color: #fff;
-opacity: 0.4; */
-
-/* background-image:  radial-gradient(#ca0951 0.5px, transparent 0.5px), radial-gradient(#ca0951 0.5px, #fff 0.5px);
-background-size: 20px 20px;
-background-position: 0 0,10px 10px; */
-
-/* background-color: #fff;
-opacity: 0.3; */
 background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
 background-size: 10px 10px;
-
-
-
-
 }
 .about .title::after {
   content: "who I am";
