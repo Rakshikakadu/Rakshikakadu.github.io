@@ -290,11 +290,12 @@ background-size: 10px 10px;
   color: red;
 }
 
-/* services section styling */
+/* statistics section styling */
 .services,
 .project {
   color: BLACK;
   background: #FAEBD7;
+ 
 }
 .services .title::before,
 .project .title::before {
@@ -307,6 +308,7 @@ background-size: 10px 10px;
   content: "what i done";
 }
 .services .serv-content .card {
+  
   width: calc(33% - 20px);
   background: white;
   text-align: center;
@@ -409,6 +411,7 @@ background-size: 10px 10px;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+  
 }
 .skills .skills-content .left p {
   text-align: justify;
@@ -477,6 +480,8 @@ background-size: 10px 10px;
   content: "see my work";
 }
 .project .carousel .card {
+  border: 1px solid black;
+  height: 50%;
   background: white;
   border-radius: 12px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -505,6 +510,7 @@ background-size: 10px 10px;
   transform: scale(1.05);
 }
 .project .carousel .card .text {
+
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -592,6 +598,14 @@ background-size: 10px 10px;
 
 
 /* calander */
+
+#githubCommits{
+  margin: auto;
+ 
+  font-size: larger;
+  font-weight: bolder;
+}
+
 .calendarDiv{
   /* border: 10px solid red; */
   text-align: center;
