@@ -25,7 +25,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(151, 61, 61);
+  border: 1px solid black;
+  background: rgb(175, 201, 213);
 }
 
 /* custom scroll bar end */
@@ -58,8 +59,9 @@ footer {
 }
 
 section{
-  background-image: radial-gradient(#971042 0.5px, #fff 0.5px);
-  background-size: 10px 10px;
+  /* background-image: radial-gradient(#971042 0.5px, #fff 0.5px);
+  background-size: 10px 10px; */
+  background-color: rgb(243, 247, 249);
 }
 section .title {
   position: relative;
@@ -239,10 +241,11 @@ section .title::after {
 
 /* about section styling */
 .about{
-border: 1px solid black;
-background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
-background-color: rgb(67, 119, 125);
-background-size: 10px 10px;
+/* border: 1px solid black;
+background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px); */
+background-color: rgb(219, 237, 242);
+border-bottom: 2px solid black;
+/* background-size: 10px 10px; */
 }
 .about .title::after {
   content: "who I am";
@@ -274,7 +277,7 @@ background-size: 10px 10px;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(28, 189, 203);;
+  background: rgb(28, 189, 203);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -303,7 +306,6 @@ background-size: 10px 10px;
 }
 .services .title::before,
 .project .title::before {
-  
   background: #fff;
 }
 .services .title::after,
@@ -328,6 +330,7 @@ background-size: 10px 10px;
   /* change*/
 }
 .services .serv-content .card .box {
+ 
   transition: all 0.3s ease;
   
 }
@@ -423,7 +426,7 @@ background-size: 10px 10px;
 .skills .skills-content .left a {
   display: inline-block;
   background: rgb(28, 189, 203);;
-  color: #fff;
+  color: rgb(209, 239, 240);
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
@@ -547,8 +550,9 @@ background-size: 10px 10px;
   justify-content: center;
   align-items: center;
 }
+
 .techStack {
-  color: purple;
+  color: rgb(197, 212, 227);
 }
 
 .demo-div a,
