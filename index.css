@@ -758,6 +758,74 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+
+/* ---------------- project section css start ----------------------------- */
+
+
+#projects > h1 {
+  border: 1px solid black;
+ text-align: center;
+  margin-bottom: 50px;
+
+}
+
+#proj2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#proj2 > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5%;
+  border-radius: 5%;
+  border: 1px solid;
+}
+
+#proj2 > div > p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+#proj2 > div > img {
+  margin: 4%;
+  width: 50px;
+  height: 50px;
+}
+
+#proj2 > div > .proImg {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+}
+
+#proj2 > div > .proImg {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+}
+
+.proButton {
+  margin: 2%;
+  background-color: transparent;
+  border-radius: 5px 20px;
+  font-size: 16px;
+  padding: 1.5%;
+}
+
+.proButton:hover {
+  border-radius: 20px 5px;
+  background-color: #00baf2;
+  cursor: pointer;
+}
+/* -------------------------- project section css end ---------------------------- */
+
+
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -818,11 +886,13 @@ footer span a:hover {
     width: 100%;
   }
   .about .about-content .left {
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
   }
   .about .about-content .right {
+    /* border: 1px solid black; */
     flex: 100%;
   }
   .services .serv-content .card {
@@ -863,7 +933,7 @@ footer span a:hover {
   }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
-    font-size: 19px;
+    font-size: 21px;
   }
   .contact .right form .fields {
     flex-direction: column;
