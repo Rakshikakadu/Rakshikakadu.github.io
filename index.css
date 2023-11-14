@@ -414,7 +414,7 @@ border-bottom: 2px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 20px;
-  padding-left: 70px;
+  /* padding-left: 70px; */
  
 }
 .skills .skills-content .left .text {
@@ -493,7 +493,7 @@ border-bottom: 2px solid black;
   content: "see my work";
 }
 .project .carousel .card {
-  /* border: 1px solid black; */
+  border: 5px solid red;
   height: 50%;
   background: white;
   border-radius: 12px;
@@ -513,6 +513,7 @@ border-bottom: 2px solid black;
   /* change */
 }
 .project .carousel .card .box {
+  border: 5px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -928,7 +929,8 @@ footer span a:hover {
   }
 }
 
-@media (max-width: 690px) {
+/* @media (max-width: 690px)  */
+@media (max-width: 720px) {
   .max-width {
     padding: 0 23px;
   }
@@ -944,9 +946,30 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  #proj2 > div > p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .proButton {
+    margin: 2%;
+    background-color: transparent;
+    border-radius: 5px 20px;
+    font-size: 10px;
+    padding: 1.%;
+  }
+  .calendar {
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 243px;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 667px) {
+ 
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -975,4 +998,52 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+
+  /* changes */
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 890;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+} 
+.scroll-up-btn {
+  /* right: 15px; */
+  left: 340px;
+  bottom: 15px;
+  height: 38px;
+  width: 35px;
+  font-size: 23px;
+  line-height: 38px;
+}
+.calendarDiv h1 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+img.git-stats{
+  width: 200px;
+}
+.skills .skills-content .column {
+ margin-left: 20px;
+ }
+ #proj2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+table.ContributionCalendar-grid.js-calendar-graph-table{
+  width: 50px;
+}
+#aws_img img {
+  height: 100px;
+  width: 120px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
 }
