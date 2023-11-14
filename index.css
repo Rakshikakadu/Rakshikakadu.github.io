@@ -927,6 +927,7 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+
 }
 
 /* @media (max-width: 690px)  */
@@ -966,6 +967,15 @@ footer span a:hover {
     margin: 0 auto;
     width: auto;
   }
+  #proj2 > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5%;
+    border-radius: 5%;
+    border: 1px solid;
+    width: 350px;
+    margin-left: -44px;
+  }
+
 }
 
 @media (max-width: 667px) {
@@ -990,14 +1000,23 @@ footer span a:hover {
   .right form .error-box {
     width: 150px;
   }
-  .scroll-up-btn {
+  /* .scroll-up-btn {
     right: 15px;
     bottom: 15px;
     height: 38px;
     width: 35px;
     font-size: 23px;
     line-height: 38px;
-  }
+  } */
+   .scroll-up-btn {
+  /* right: 15px; */
+  left: 500px;
+  bottom: 15px;
+  height: 38px;
+  width: 35px;
+  font-size: 23px;
+  line-height: 38px;
+} 
 
   /* changes */
 
@@ -1009,15 +1028,7 @@ footer span a:hover {
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
 } 
-.scroll-up-btn {
-  /* right: 15px; */
-  left: 340px;
-  bottom: 15px;
-  height: 38px;
-  width: 35px;
-  font-size: 23px;
-  line-height: 38px;
-}
+
 .calendarDiv h1 {
   font-size: 2rem;
   padding: 2rem;
@@ -1038,7 +1049,7 @@ img.git-stats{
   margin-top: 100px;
 }
 table.ContributionCalendar-grid.js-calendar-graph-table{
-  width: 50px;
+  width: 450px;
 }
 #aws_img img {
   height: 100px;
