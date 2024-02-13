@@ -406,6 +406,8 @@ border-bottom: 2px solid black;
   content: "See my skills";
 }
 
+
+
 /* skills right column */
 .skills .skills-content .column {
   width: calc(50% - 20px);
@@ -689,7 +691,11 @@ border-bottom: 2px solid black;
 }
 
 .contact .contact-content .info .sub-title {
-  color: #333;
+   color: #333;
+ }
+.sub-title{
+  /* border: 1px solid red; */
+  width: 150%;
 }
 .contact .right form .fields {
   display: flex;
@@ -763,6 +769,20 @@ footer span a {
 }
 footer span a:hover {
   text-decoration: underline;
+}
+
+/* skill section */
+
+/* .column .right{
+  border: 1px solid red;
+} */
+
+
+/* contact column left */
+
+.contact-content .column.left {
+  /* border: 2px solid red; */
+  margin-bottom: 14%;
 }
 
 /* ---------------- experience section css start ----------------------------- */
@@ -877,11 +897,36 @@ footer span a:hover {
 }
 }
 
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
+                                      @media (max-width: 991px) {
+                                        .max-width {
+                                          padding: 0px 50px;
+                                        }
+                                        .contact{
+                                          padding-bottom: 0%;
+                                        }
+                                        .contact-content{
+                                          width: auto;
+                                          height: auto  ;
+                                          /* border: 1px solid black; */
+                                          display: flex;
+                                          justify-content: center;
+                                          flex-direction: column;
+                                          justify-content: space-between;
+                                          /* margin: 0 auto 60px; */
+                                          
+                                        }
+                                        .contact-content .column.right{
+                                          /* border: 1px solid black; */
+                                          padding-top: 180px;
+                                        }
+
+                                        .skills-content {
+                                          padding-bottom: 10%;
+                                      }
+                                        footer{
+                                          margin-top: 0;
+                                        }
+                                      }
 @media (max-width: 947px) {
   .menu-btn {
     display: block;
@@ -908,6 +953,7 @@ footer span a:hover {
     display: block;
   }
   .navbar .menu li a {
+    
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
